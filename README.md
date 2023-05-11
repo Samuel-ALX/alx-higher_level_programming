@@ -6,3 +6,5 @@ This repository contains programs written for the higher-level programming track
 0x00. Python - Hello, World
 
 0x01. Python - if/else, loops, functions
+
+0x02. Python - import & modules
