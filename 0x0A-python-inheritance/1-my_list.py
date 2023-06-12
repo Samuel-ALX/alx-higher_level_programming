@@ -1,17 +1,16 @@
 #!/usr/bin/python3
-
 """
-MyList module
+subclass from List base class
 """
 
 
 class MyList(list):
-    """A class that inherits from `list`"""
-    def __init__(self, *args, **kwargs):
-        """Construct ``MyList`` instances."""
-        super(list).__init__(*args, **kwargs)
+    """a subclass of list base class"""
+    def __init__(self):
+        """object constructor"""
+        super().__init__()
+        """Access the methods of the Base class"""
 
     def print_sorted(self):
-        """Prints the sorted list(ascending sort)"""
-        super(list).sort()
-        print(self)
+        """print_sorted method"""
+        print(sorted(self))
